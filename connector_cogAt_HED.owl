@@ -15,6 +15,71 @@
         <owl:imports rdf:resource="http://www.cognitiveatlas.org/ontology/cogat.owl"/>
         <owl:imports rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ANC/ontologies/connector_CogAt_HED#HED -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ANC/ontologies/connector_CogAt_HED#HED"/>
+    
+
+
+    <!-- https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Action -->
+
+    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ANC/ontologies/connector_CogAt_HED#HED"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Agent -->
+
+    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Agent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ANC/ontologies/connector_CogAt_HED#HED"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Event -->
+
+    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Event">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ANC/ontologies/connector_CogAt_HED#HED"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Item -->
+
+    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Item">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ANC/ontologies/connector_CogAt_HED#HED"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Property -->
+
+    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Property">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ANC/ontologies/connector_CogAt_HED#HED"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Relation -->
+
+    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Relation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ANC/ontologies/connector_CogAt_HED#HED"/>
+    </rdf:Description>
 </rdf:RDF>
 
 
