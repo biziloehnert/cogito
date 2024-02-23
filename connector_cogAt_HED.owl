@@ -187,6 +187,38 @@
     
 
 
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01262 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01262">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/connector_CogAt_HED#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Object"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/connector_CogAt_HED#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#See"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/connector_CogAt_HED#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Recognize"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01276 -->
 
     <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01276">
