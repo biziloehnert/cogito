@@ -1,5 +1,5 @@
-# Cognitive Task Ontology
-The aim of this project is an ontology that relates Tasks from [Cognitive Atlas](https://cognitiveatlas.org/) to [HED tags](https://www.hedtags.org/display_hed.html). In other words, we define the terms for cognitive tasks by their relation to HED tags, e.g. `Reading (covert)` is equivalent to `(has some Quiet) AND (has some Read) AND (has some (Character or Nonword or Word or Sentence or Phrase))`, where `Reading (covert)` is a Task from Cognitive Atlas and `{Read, Quiet, Word, Character, Nonword, Word, Sentence, Phrase}` are HED Tags. 
+# Cognitive Task Ontology (COGITO)
+The aim of COGITO is to relate Tasks from [Cognitive Atlas](https://cognitiveatlas.org/) to [HED tags](https://www.hedtags.org/display_hed.html). In other words, we define the terms for cognitive tasks by their relation to HED tags, e.g. `Reading (covert)` is equivalent to `(has some Quiet) AND (has some Read) AND (has some (Character or Nonword or Word or Sentence or Phrase))`, where `Reading (covert)` is a Task from Cognitive Atlas and `{Read, Quiet, Word, Character, Nonword, Word, Sentence, Phrase}` are HED Tags. 
 The purpose of this ontology is to query partially annotated datasets either by a Cognitive Task or by HED tags. 
 
 ## Dependencies
