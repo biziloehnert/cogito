@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="http://www.semanticweb.org/ANC/ontologies/cogito">
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito/0.0.1"/>
-        <owl:imports rdf:resource="http://www.cognitiveatlas.org/ontology/cogat.owl"/>
+        <owl:imports rdf:resource="https://data.bioontology.org/ontologies/COGAT/submissions/7/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb"/>
         <owl:imports rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl"/>
     </owl:Ontology>
     
@@ -276,6 +276,19 @@
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01036 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01036">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Go-signal"/>
+            </owl:Restriction>
         </owl:equivalentClass>
     </rdf:Description>
     
