@@ -6,4 +6,4 @@ The purpose of this ontology is to query partially annotated datasets either by 
 We reuse existing OWL files from [Cognitive Atlas](https://data.bioontology.org/ontologies/COGAT/submissions/7/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb) and [HED](https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl) by importing them into our task ontology. The import might fail when opened with the [Protege Editor](https://protege.stanford.edu/), in which case it is necessary to reimport.
 
 ## Usage
-To use this ontology just open the [owl file](connector-ontology-for-cogat-and-hed/connector_cogAt_HED.owl). 
+To use this ontology just open the [owl file](cogito.owl). 
