@@ -46,6 +46,59 @@
     
 
 
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00903 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00903">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Backward"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Masked"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00906 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00906">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Image"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Judge"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00917 -->
 
     <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00917">
@@ -71,16 +124,37 @@
     
 
 
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00931 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00931">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Character"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Disordered"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Modify"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00934 -->
 
     <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00934">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
-                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Loud"/>
-                    </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
                         <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Memorize"/>
@@ -91,10 +165,60 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Recall"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
                         <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Sentence"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00935 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00935">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00615"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Attend-to"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Auditory-presentation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Sentence"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Word"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00941 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00941">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Hold-breath"/>
+            </owl:Restriction>
         </owl:equivalentClass>
     </rdf:Description>
     
@@ -169,6 +293,64 @@
     
 
 
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00967 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00967">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Object"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Silent"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00968 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00968">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Communicate-vocally"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Object"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00980 -->
 
     <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00980">
@@ -231,6 +413,31 @@
                                 </owl:unionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00984 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_00984">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Eyes-open"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Rest"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Resting"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -330,6 +537,31 @@
     
 
 
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01027 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01027">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Character"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Memorize"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Recall"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01033 -->
 
     <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01033">
@@ -338,11 +570,51 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
-                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Detect"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Face"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
-                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Face"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Memorize"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Detect"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Recognize"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01035 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01035">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Auditory-presentation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Character"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Memorize"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Repeat"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -364,14 +636,219 @@
     
 
 
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01045 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01045">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Character"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Generate"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Word"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01046 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01046">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Character"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01047 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01047">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Character"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01048 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01048">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Categorical-judgment-value"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Judge"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Auditory-presentation"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Nonword"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Word"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01053 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01053">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Backward"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Item"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01056 -->
 
     <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01056">
         <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
-                <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Oddball"/>
-            </owl:Restriction>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Detect"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Oddball"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Auditory-presentation"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01070 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01070">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Connective-relation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Image"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Word"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Meaningful"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Not-meaningful"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
     
@@ -385,6 +862,110 @@
                 <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
                 <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Stop-signal"/>
             </owl:Restriction>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01081 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01081">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Color"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Read"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Word"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Congruent"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Incongruent"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01105 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01105">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Man-made-object"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Probability"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Reward"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01109 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01109">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Judge"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Auditory-presentation"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Nonword"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Word"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
         </owl:equivalentClass>
     </rdf:Description>
     
@@ -440,6 +1021,35 @@
     
 
 
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01127 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01127">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Character"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Comparative-relation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Judge"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01147 -->
 
     <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01147">
@@ -461,6 +1071,288 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
                         <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Speak"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01175 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01175">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Judge"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Length"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Object"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01196 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01196">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Auditory-presentation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Count"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Feedback"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Geometric-object"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Judge"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Perform"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Synchronous-with"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Task"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Tone"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01199 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01199">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Image"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01200 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01200">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Image"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01201 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01201">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Backward"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Word"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01203 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01203">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Connective-relation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Judge"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Object"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Meaningful"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Not-meaningful"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01205 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01205">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Connective-relation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Object"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Meaningful"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Not-meaningful"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01210 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01210">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Character"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Judge"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01213 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01213">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Operate"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Spatial-relation"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -516,6 +1408,42 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
                         <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Phrase"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01225 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01225">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Connective-relation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Generate"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Word"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Auditory-presentation"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -619,6 +1547,35 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
                         <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Face"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01255 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01255">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Color"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Word"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -783,6 +1740,92 @@
     
 
 
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01304 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01304">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Agent-emotional-state"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Face"/>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Recognize"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01311 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01311">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Face"/>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Angry"/>
+                                            <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Disgusted"/>
+                                            <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Fearful"/>
+                                            <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Happy"/>
+                                            <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Sad"/>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Recognize"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01413 -->
 
     <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01413">
@@ -791,11 +1834,11 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
-                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Hear"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Auditory-presentation"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
-                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Loud"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Hear"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
@@ -803,7 +1846,36 @@
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Speak"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
                         <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Word"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01418 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01418">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Eyes-closed"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Rest"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Resting"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -846,6 +1918,60 @@
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
                         <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01476 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01476">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Communicate-vocally"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Word"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01481 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01481">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Auditory-presentation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Read"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Word"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -898,9 +2024,107 @@
     
 
 
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01556 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01556">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Character"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Judge"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Memorize"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Recognize"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01608 -->
+
+    <rdf:Description rdf:about="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01608">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Memorize"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Word"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Auditory-presentation"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Detect"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Recognize"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
     <!-- http://www.cogpo.org/ontologies/working/CogPOver2011.owl#COGPO_00049 -->
 
     <rdf:Description rdf:about="http://www.cogpo.org/ontologies/working/CogPOver2011.owl#COGPO_00049">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Backward"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Image"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01203"/>
     </rdf:Description>
     
@@ -6962,7 +8186,70 @@
 
     <!-- https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation -->
 
-    <owl:Class rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+    <owl:Class rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Backward"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Identify"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Image"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Connective-relation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Judge"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom rdf:resource="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Visual-presentation"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Image"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Word"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/ANC/ontologies/cogito#HAS"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Meaningful"/>
+                                    <rdf:Description rdf:about="https://gitlab.com/api/v4/projects/45068833/jobs/artifacts/main/raw/HED8.2.0.owl?job=generate-owl#Not-meaningful"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
     
 
 
