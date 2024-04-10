@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.cognitiveatlas.org/ontology/cogat.owl" uri="file:/C:/Users/benen/Downloads/cogat.owl"/>
+    <uri id="User Entered Import Resolution" name="https://data.bioontology.org/ontologies/COGAT/submissions/7/download?apikey=8b5b7825-538d-40e0-9e9e-5ab9274a9aeb" uri="cogito.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1712661215543" name="http://www.semanticweb.org/bianca/ontologies/2024/1/untitled-ontology-120" uri="cogito.owl"/>
+    </group>
+</catalog>
