@@ -3037,14 +3037,6 @@
     
 
 
-    <!-- http://www.cogpo.org/ontologies/working/CogPOver2011.owl#COGPO_00049 -->
-
-    <rdf:Description rdf:about="http://www.cogpo.org/ontologies/working/CogPOver2011.owl#COGPO_00049">
-        <rdfs:subClassOf rdf:resource="http://www.cognitiveatlas.org/ontology/cogat.owl#CAO_01203"/>
-    </rdf:Description>
-    
-
-
     <!-- http://www.semanticweb.org/ANC/ontologies/cogito#Dataset -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/ANC/ontologies/cogito#Dataset"/>
